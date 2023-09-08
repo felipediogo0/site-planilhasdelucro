@@ -1,0 +1,227 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #134A2B; /* Cor de fundo cinza claro */
+    font-family: 'Montserrat Classic', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #33C481;
+}
+
+/* Estilo para o cabeçalho */
+.site-header {
+    background-color: #fff; /* Azul mais escuro */
+    color: #134A2B; /* Texto branco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #134A2B; /* Azul */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+}
+
+/* Estilo para o título no cabeçalho */
+header h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Estilo para o texto de apresentação no cabeçalho */
+header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner-img{
+    max-width: 100%;
+    margin-left: 30px;
+}
+
+.logo img {
+    max-width: 15%;
+    height: auto;
+    margin-left: 20px; /* Espaço à esquerda do logotipo */
+}
+
+/* Estilo para o menu de navegação */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #134A2B;
+    font-weight: bold;
+}
+
+/* Estilo para o conteúdo do blog */
+.blog-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+.blog-content img{
+    max-width: 720px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+/* Estilo para as postagens */
+.post {
+    color: #134A2B;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    font-size: 20px;
+}
+
+.post p {
+    font-size: 16px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #134A2B;
+    font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o rodapé */
+.site-footer {
+    background-color: #33C481;
+    color: #134A2B;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para a barra lateral (sidebar) */
+.sidebar {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Espaço entre o conteúdo e a barra lateral */
+}
+
+/* Estilo para os cards na barra lateral */
+.card {
+    border: 1px solid #134A2B;
+    color: #134A2B;
+    background-color: rgba(76, 175, 80, 0.1); /* Cor de fundo verde com transparência */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 00px; /* Cantos arredondados */
+    margin-bottom: 20px; /* Espaçamento inferior entre os cards */
+    font-family: 'Arial', sans-serif; /* Altere a fonte conforme desejado */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.4; /* Espaçamento entre linhas */
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: #134A2B;
+    font-weight: bold;
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a seção que contém o conteúdo do blog e a barra lateral */
+.blog-and-sidebar {
+    display: flex; /* Exibir em formato de flexbox */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    max-width: 1200px; /* Largura máxima da seção */
+    margin: 0 auto; /* Centralizar a seção na página */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Carousel */
+
+/* Estilo para centralizar o carrossel e limitar a largura */
+
+#myCarousel {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 1200px; /* Define a largura máxima desejada */
+    max-height: 400px; /* Define a altura máxima desejada */
+}
+
+/* Estilo para centralizar os indicadores */
+.carousel-indicators {
+    text-align: center; /* Centraliza horizontalmente */
+    align-items: center;
+}
+
+/* Estilo para ajustar a largura das imagens */
+.carousel-inner img {
+    margin-left: 350px;
+    width: 40%; /* Preenche a largura do carrossel */
+    height: 100%;
+}
+
+/* Estilo para adicionar espaço na parte superior e inferior do carrossel */
+#myCarousel {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* Estilo para os links das redes sociais (Parte 3) */
+.redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para os links das redes sociais individuais */
+.redes-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #134A2B; /* Azul */
+    text-decoration: none;
+}
+
+/* Estilo para os links das redes sociais quando passar o mouse sobre eles */
+.redes-sociais a:hover {
+    color: #134A2B; /* Azul mais escuro */
+}
+
+.excel p{
+    margin-bottom: 20px;
+}
