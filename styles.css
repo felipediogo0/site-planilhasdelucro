@@ -227,7 +227,7 @@ header p {
 }
 
 /* Exemplo de media query para dispositivos móveis */
-@media only screen and (max-width: 2090px) {
+@media only screen and (max-width: 1310px) {
     
     /* Estilos para dispositivos com largura máxima de 600px */
     /* Por exemplo, ajuste do layout, fontes, etc. */
