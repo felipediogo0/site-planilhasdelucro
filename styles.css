@@ -225,3 +225,43 @@ header p {
 .excel p{
     margin-bottom: 20px;
 }
+
+/* Exemplo de media query para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    
+    /* Estilos para dispositivos com largura máxima de 600px */
+    /* Por exemplo, ajuste do layout, fontes, etc. */
+
+    /* Estilo para o conteúdo do blog */
+.blog-content {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+/* Estilo para a barra lateral (sidebar) */
+.sidebar {
+    max-width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Espaço entre o conteúdo e a barra lateral */
+}
+
+.blog-content img{
+    max-width: 320px;
+    padding: 5px;
+    margin-left: -8px;
+    margin-top: 0px;
+}
+
+.logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 20px; /* Espaço à esquerda do logotipo */
+}
+  
+}
