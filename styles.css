@@ -9,7 +9,7 @@ body {
 
 /* Estilo para o cabeçalho */
 .site-header {
-    background-color: #fff; /* Azul mais escuro */
+    background-color: #e4f3ea; /* Azul mais escuro */
     color: #134A2B; /* Texto branco */
     display: flex;
     justify-content: space-between;
@@ -17,8 +17,8 @@ body {
 }
 
 header {
-    background-color: #134A2B; /* Azul */
-    color: #fff; /* Texto branco */
+    background-color: #e4f3ea; /* Azul */
+    color: #b10a0a; /* Texto branco */
     padding: 20px;
 }
 
