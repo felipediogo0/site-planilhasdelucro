@@ -254,19 +254,18 @@ header p {
 .blog-content img{
     max-width: 320px;
     padding: 5px;
-    margin-left: -5px;
+    margin-left: 0px;
     margin-top: 0px;
 }
 
 .logo img {
-    max-width: 75%;
+    max-width: 80%;
     height: auto;
     margin-left: 20px; /* Espaço à esquerda do logotipo */
 }
   
 .banner-img{
-    max-width: 90%;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 }
