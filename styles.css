@@ -40,7 +40,7 @@ header p {
 }
 
 .logo img {
-    max-width: 15%;
+    max-width: 70%;
     height: auto;
     margin-left: 20px; /* Espaço à esquerda do logotipo */
 }
@@ -65,7 +65,6 @@ header p {
 
 /* Estilo para o conteúdo do blog */
 .blog-content {
-    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -74,10 +73,8 @@ header p {
 }
 
 .blog-content img{
-    max-width: 720px;
+    max-width: 95%;
     padding: 20px;
-    margin-left: 20px;
-    margin-top: -20px;
 }
 
 /* Estilo para as postagens */
@@ -114,7 +111,7 @@ header p {
 
 /* Estilo para a barra lateral (sidebar) */
 .sidebar {
-    max-width: 300px;
+    max-width: 25%;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -226,46 +223,19 @@ header p {
     margin-bottom: 20px;
 }
 
-/* Exemplo de media query para dispositivos móveis */
-@media only screen and (max-width: 1310px) {
-    
-    /* Estilos para dispositivos com largura máxima de 600px */
-    /* Por exemplo, ajuste do layout, fontes, etc. */
+@media (min-width: 768px) {
 
-    /* Estilo para o conteúdo do blog */
-.blog-content {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 0px;
-}
-
-/* Estilo para a barra lateral (sidebar) */
-.sidebar {
-    max-width: 200px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px; /* Espaço entre o conteúdo e a barra lateral */
-}
-
-.blog-content img{
-    max-width: 320px;
-    padding: 5px;
-    margin-left: 0px;
-    margin-top: 0px;
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .logo img {
-    max-width: 80%;
+    max-width: 20%;
     height: auto;
     margin-left: 20px; /* Espaço à esquerda do logotipo */
 }
-  
-.banner-img{
-    margin-left: 10px;
-}
+
 
 }
+  
